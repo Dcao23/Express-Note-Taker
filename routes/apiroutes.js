@@ -7,23 +7,21 @@ router.get('/api/notes', (req, res) => {
 }
 );
 
-router.post('/', (req, res) => {
+router.post('/api/notes', (req, res) => {
     console.log(req.body);
-  
     const { title, text } = req.body;
-  
     if (req.body) {
       const newNote = {
-       title,
-       text,
-        tip_id: uuidv4(),
+      title,
+      text,
+      tip_id: uuidv4(),
       };
   
 // readAndAppend(newNote, './db/db.json');
-const readAndAppend = (newNote, ./db/db.json) => {
+const readAndAppend = ('./db/db.json', newNote) {
     FileSystem.readFile(/db/db.json, 'utf8', (err, data) => {
         if (err) {
-            console.error(err);
+        console.error(err);
         } else {
         const parsedData = JSON.parse(data);
         parsedData.push(content);
