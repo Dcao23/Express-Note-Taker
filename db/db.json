@@ -4,8 +4,13 @@
         "text": "Test text"
     },
     {
-        "title": "Tutor session",
-        "text": "Debugging",
-        "id": "15f1"
+        "title": "Functional Note Taker",
+        "text": "Save notes for reminders and delete notes to clear up space",
+        "id": "3f5c"
+    },
+    {
+        "title": "Submit Assignments",
+        "text": "Challenge 11",
+        "id": "9d81"
     }
 ]
